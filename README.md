@@ -4,4 +4,11 @@ The idea is to model RPG games and have the ability to create new characters wit
 Our backend database will contain each user’s character information and details, and the frontend will be the place that the user can access CRUD functionalities.
 
 
+##Wireframe
+
+https://drive.google.com/drive/folders/1IgO2T9y0CgJNYYzFIIrxh1lNy1WTJ5bK
+
+##MVP and Schedule
+
 https://docs.google.com/document/d/1JT_PdoFY4G1tsSps2wzIeTHLrOhA8kWtL5MaBhpKRFo/edit
+
