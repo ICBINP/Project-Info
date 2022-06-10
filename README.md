@@ -5,7 +5,7 @@ Our backend database will contain each user’s character information and detail
 
 #Motivation
 
-We all enjoy the fantasy world of Dungeons & Dragons, along with the Choose Your Own Adventure stories that date back to books in the 80s. We decided to make our adventure based on Pineapples & Potatoes in a hat-tip to instructors Mike and Stack and their use of those words to represent that any word could be used in a variety of coding locations.
+We all enjoy the fantasy world of Dungeons & Dragons, along with the Choose Your Own Adventure stories that date back to books in the 80s. We decided to make our adventure based on Pineapples & Potatoes as a tip of the hat to instructors Mike and Stack and their use of them in class.
 
 ##Wireframe
 
@@ -23,6 +23,29 @@ https://docs.google.com/document/d/1JT_PdoFY4G1tsSps2wzIeTHLrOhA8kWtL5MaBhpKRFo/
 
 <img width="646" alt="Screen Shot 2022-06-09 at 7 32 03 PM" src="https://user-images.githubusercontent.com/102939918/172979554-8d96d312-be92-4168-b6f9-ed5ed3927223.png">
 
-##Languages Used
+##Languages and Frameworks Used
+
+Node.js, Express, React, JavaScript, HTML, CSS, Axios
+
+##Code Example
+
+```
+router.post('/', (req, res) => {
+    console.log(req.body)
+    Character.create({
+        "characterName": req.body.newCharacter.characterName,
+        "class": req.body.newCharacter.characterClass,
+        "alignment": req.body.newCharacter.alignment,
+        "weapon": req.body.newCharacter.weapon,
+    })
+    .then(newCharacter => {
+        console.log(newCharacter)
+        User.findByIdAndUpdate(req.body.id, {$push: {characters: newCharacter._id }}, {new: true}).populate({path: 'characters'})
+        .then(user => {
+            console.log(user)
+            res.json(user)
+        })
+    })
+    })```
 
 
