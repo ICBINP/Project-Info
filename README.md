@@ -12,3 +12,8 @@ https://drive.google.com/drive/folders/1IgO2T9y0CgJNYYzFIIrxh1lNy1WTJ5bK
 
 https://docs.google.com/document/d/1JT_PdoFY4G1tsSps2wzIeTHLrOhA8kWtL5MaBhpKRFo/edit
 
+##
+
+<img width="563" alt="Screen Shot 2022-06-09 at 7 29 57 PM" src="https://user-images.githubusercontent.com/102939918/172979669-7faeec37-aa0e-4349-a4b2-a622cc701015.png">
+
+<img width="646" alt="Screen Shot 2022-06-09 at 7 32 03 PM" src="https://user-images.githubusercontent.com/102939918/172979554-8d96d312-be92-4168-b6f9-ed5ed3927223.png">
