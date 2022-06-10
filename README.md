@@ -29,6 +29,8 @@ Node.js, Express, React, JavaScript, HTML, CSS, Axios
 
 ##Code Example
 
+This is a particular favore piece of code of David's because it allows Characters to be organized better and be assigned to the desired User.
+
 ```
 router.post('/', (req, res) => {
     console.log(req.body)
@@ -49,3 +51,10 @@ router.post('/', (req, res) => {
     })
 ```
 
+##How to Use
+
+You'll start off creating a User Name. Once you have a User Name, you'll be directed to Create a Character, to which you'll add a Class, an Alignment and a Weapon. From there, you'll head on to your first Adventure! Each screen will offer two choices, with each choice taking you to two more choices. Enjoy your Adventure!
+
+##Credit
+
+Background image found on https://pixabay.com/images/search/fantasy/, posted by Mysticartdesign. (Pixaby license allows free use: https://pixabay.com/service/license/)
